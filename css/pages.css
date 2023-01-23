@@ -10,12 +10,15 @@
    --black: #000000;
    --offblack: #1B1B1B;
    --orange: #Ffac48;
-   --purple: #9226FD;
+   --purple: #9589FF;
    --teal: #65d1d1;
          }
 /* body */
 body {
 background-color: var(--offblack);
+}
+.n-text-purple {
+  color: var(--purple);
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: "Aldrich", sans-serif;
@@ -23,9 +26,6 @@ h1,h2,h3,h4,h5,h6 {
 p {
   font-family: "Alata", sans-serif;
   color: var(--offwhite);
-}
-hr {
-  color: var(--purple);
 }
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
