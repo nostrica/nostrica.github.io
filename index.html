@@ -29,33 +29,59 @@
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
   <img src="images/pura-vida.png" style="width:100%">
+  <!---about--->
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-deep-purple">
     <i class="fa fa-hand-peace-o w3-xxlarge"></i>
     <p>ABOUT</p>
   </a>
+  <!--- end about --->
+  <!--- plan --->
   <a href="#plan" class="w3-bar-item w3-button w3-padding-large w3-hover-deep-purple">
     <i class="fa fa-pencil w3-xxlarge"></i>
     <p>PLAN</p>
   </a>
+  <!--- end plan --->
+  <!--- travel --->
   <a href="#travel" class="w3-bar-item w3-button w3-padding-large w3-hover-deep-purple">
     <i class="fa fa-sun-o w3-xxlarge"></i>
     <p>TRAVEL</p>
   </a>
+  <!--- end travel --->
+  <!--- wall --->
+  <a href="#give-back" class="w3-bar-item w3-button w3-padding-large w3-hover-deep-purple">
+    <i class="fa fa-heart w3-xxlarge"></i>
+    <p>GIVE BACK</p>
+  </a>
+  <!--- end wall --->
+  <!--- wall --->
   <a href="#wall" class="w3-bar-item w3-button w3-padding-large w3-hover-deep-purple">
     <i class="fa fa-eye w3-xxlarge"></i>
     <p>WALL</p>
   </a>
+  <!--- end wall --->
 </nav>
-
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+</div></div>
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-hand-peace-o w3-xlarge"></i>&nbsp;&nbsp;ABOUT</a>
+  <a href="#plan" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-pencil w3-xlarge"></i>&nbsp;&nbsp;PLAN</a>
+  <a href="#travel" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-sun-o w3-xlarge"></i>&nbsp;&nbsp;TRAVEL</a>
+  <a href="#give-back" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-heart w3-xlarge"></i>&nbsp;&nbsp;GIVE BACK</a>
+  <a href="#wall" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-eye w3-xlarge"></i>&nbsp;&nbsp;WALL</a>
+</div>
+<!--- old nav
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
     <a href="#plan" class="w3-bar-item w3-button" style="width:25% !important">PLAN</a>
     <a href="#travel" class="w3-bar-item w3-button" style="width:25% !important">TRAVEL</a>
+    <a href="#travel" class="w3-bar-item w3-button" style="width:25% !important">GIVE BACK</a>
     <a href="#wall" class="w3-bar-item w3-button" style="width:25% !important">WALL</a>
   </div>
-</div>
+</div>--->
 <!-- Nostrica Content -->
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
@@ -122,7 +148,7 @@
     <!--- end planning doc --->
   </div>
   <!--- End openness--->
-  <!--- Openness --->
+  <!--- travel --->
   <div class="w3-content w3-left-align w3-text-grey w3-padding-64" id="travel">
     <h2 class="w3-text-light-grey w3-xxxlarge">greet spring by the ocean</h2>
     <h3 class="w3-text-light-grey w3-xxlarge">Uvita, Costa Rica</h3>
@@ -133,7 +159,37 @@
     <a href="https://docs.google.com/document/d/1P0o1UfQNLg_GxZdz_yCYvTGWWGyrh137gVGb5mdIDFo/edit" target="new" class="w3-btn w3-section w3-deep-purple w3-hover-orange w3-round-xlarge w3-padding-16">What to do</a>
     <!--- what to do --->
   </div>
-  <!--- End openness--->
+  <!--- End travel--->
+  <!-- Giving back -->
+  <div class="w3-content w3-left-align w3-text-grey w3-padding-64" id="give-back">
+    <h2 class="w3-text-light-grey w3-xxxlarge">Giving Back</h2>
+    <h3 class="w3-text-light-grey w3-xxlarge">Nostr & nostrica care about the local community</h3>
+    <hr style="width:100%" class="w3-border-deep-purple">
+    <p>We'll be adding opportunities for you to give back online and in-person.</p>
+  </div>
+  <div class="w3-row w3-padding-64">
+    <div class="w3-col m6 w3-padding-large">
+     <a href="https://lightning.store/product/limited-edition-nostrica-23-t-shirt-or-tank-top/" target="new" alt="lightning store nostrica limited edition t-shirt or tank top"><img src="images/lightning-store-nostrica.png" class="w3-round w3-image w3-round-xlarge" alt="Table Setting" width="600" height="750"></a>
+    </div>
+
+    <div class="w3-col m6 w3-padding-large" id="lightning-store">
+      <h1>Limited edition Nostrica '23</h1>
+      <h2 class="w3-text-orange">By the Lightning Store</h2>
+      <h3 class="w3-text-gray">T-shirt or tank top</h3>
+      <div class="w3-panel w3-black">
+      <!--- quote --->
+      <p class="w3-large w3-serif">
+        <i class="fa fa-quote-right w3-xxlarge w3-margin-right"></i> Inspired by Costa Rican art/culture, 80's gift shops and the Nostr community of course. 🤙</p>
+      </div>
+      <!--- end quote --->
+      <p>All net proceeds will be donated to local Costa Rican charities. TBD.</p>
+      <!--- what to do --->
+      <a href="https://lightning.store/product/limited-edition-nostrica-23-t-shirt-or-tank-top/" target="new" class="w3-btn w3-section w3-deep-purple w3-hover-orange w3-round-xlarge w3-padding-16">Pre-order</a>
+      <!--- what to do --->
+    </div>
+  </div>
+
+  <hr>
 
   <!-- Community wall -->
   <div class="w3-padding-64 w3-content" id="wall">
@@ -169,6 +225,24 @@
 
 <!-- END PAGE CONTENT -->
 </div>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
 
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 </body>
 </html>
