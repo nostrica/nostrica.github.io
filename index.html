@@ -109,7 +109,8 @@
     <hr style="width:100%" class="w3-border-deep-purple">
     <p class="w3-xxlarge">Nostr <span class="w3-text-blue">frees</span> people from platforms. Nostrica celebrates nostr's decentralization.</p>
     <p class="w3-xxlarge">Unconference online events, in-person admission tickets & shared meals are <span class="w3-text-blue">free</span>. <span class="w3-xlarge">(thanks to jack <img src="images/shaka.png" alt="shaka hand emoticon"/>)</span></p>
-    <p class="w3-xlarge w3-opacity">*you still need to find a way to cover travel and lodging expenses. <br><a href="https://docs.google.com/document/d/1Gsv09gfuwhqhQerIkxeYQ7iOTjOHUC5oTnL2KKyHpR8/edit#heading=h.u39gcbr2ves9" target="new">The <em>lodging assistance</em> section has possible discounted accomodations.</a></p>
+    <p class="w3-panel w3-blue w3-padding w3-large w3-round-xlarge"><br>*you still need to find a way to cover travel and lodging expenses. <br><a href="https://docs.google.com/document/d/1Gsv09gfuwhqhQerIkxeYQ7iOTjOHUC5oTnL2KKyHpR8/edit#heading=h.u39gcbr2ves9" target="new">The <em>lodging assistance</em> section has possible discounted accomodations. &#10530;</a><br><br></p>
+
   </div>
   <!--- End about --->
   <div class="w3-content w3-left-align w3-text-grey w3-padding-64">
@@ -155,6 +156,9 @@
     <!--- what to do --->
     <a href="https://docs.google.com/document/d/1P0o1UfQNLg_GxZdz_yCYvTGWWGyrh137gVGb5mdIDFo/edit" target="new" class="w3-btn w3-section w3-deep-purple w3-hover-orange w3-round-xlarge w3-padding-16">What to do</a>
     <!--- what to do --->
+    <!--- need a visa --->
+    <p class="w3-panel w3-blue w3-padding w3-large w3-round-xlarge"><br>Need a visa to enter Costa Rica?<br> We can help. Please DM us A.S.A.P. on our official nostrica nostr: <span class="npub w3-medium">npub1nstrcu63lzpjkz94djajuz2evrgu2psd66cwgc0gz0c0qazezx0q9urg5l</span><br><br></p>
+    <!--- end need a visa --->
   </div>
   <!--- End travel--->
   <!-- Giving back -->
@@ -255,7 +259,18 @@
     <h2 class="w3-text-light-grey w3-xxlarge">share your <span class="n-text-purple">#nostrica</span> journey</h2>
     <hr style="width:100%" class="w3-border-deep-purple">
 
-    <!-- Grid for photos -->
+    <!-- Grid for photos and music -->
+    <!--- row 6 --->
+    <div class="w3-row-padding" style="margin:0 -16px" id="wall-row-5">
+      <div class="w3-half">
+        <a href="http://tidal.com/playlist/14382965-aacf-44f8-bb4d-a02ec7e41993" target="new"><img src="images/wall/nostrica-6a.png" style="width:100%"></a>
+      </div>
+      <div class="w3-half w3-padding-64">
+        <h3 class="w3-xlarge">Nostr Vibes Tidal Playlist</span></h3>
+        <span class="w3-large"><span class="n-text-purple">From:</span> nostr.build</span>
+        <p class="npub n-text-purple">nostr: note1445r480ez46sywcxylqsfm0wd9kj838su3mks249phdqy2xmf2vsd7tsmp</p>
+      </div>
+    <!--- end row 6 --->
     <!--- row 5 --->
     <div class="w3-row-padding" style="margin:0 -16px" id="wall-row-5">
       <div class="w3-half">
@@ -265,7 +280,7 @@
       <div class="w3-half">
         <a href="nostr:note1rdqgrer3xadq5m6xtfp5rlsf6yzzdq83ay6w5vuxts9kp84x40xs8kt6uj" target="new"><img src="images/wall/nostrica-5b.png" style="width:100%"></a>
       </div>
-    <!--- end row 4 --->
+    <!--- end row 5 --->
     <!--- row 4 --->
     <div class="w3-row-padding" style="margin:0 -16px" id="wall-row-4">
       <div class="w3-half">
@@ -312,9 +327,12 @@
   </div>
     <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <a href="https://github.com/nostrica/nostrica.github.io" target="new" class="w3-btn"><i class="fa fa-github w3-hover-opacity"></i></a>
-    <p class="w3-container w3-mobile w3-medium npub"><a href="nostr:npub1nstrcu63lzpjkz94djajuz2evrgu2psd66cwgc0gz0c0qazezx0q9urg5l" target="new" alt="nostrica on nostr">npub1nstrcu63lzpjkz94djajuz2evrgu2psd66cwgc0gz0c0qazezx0q9urg5l</a></p>
-    <p class="w3-medium n-text-purple">Powered by shaka greetings and hugs. ¡Pura vida!</p>
+    <div class="w3-container w3-mobile w3-margin npub">
+      <a href="https://github.com/nostrica/nostrica.github.io" target="new" class="w3-btn w3-xxxlarge"><i class="fa fa-github w3-hover-opacity"></i></a>
+      <h3 class="npub w3-large">follow the journey on our nostr:</h3>
+      <p class="npub w3-medium">npub1nstrcu63lzpjkz94djajuz2evrgu2psd66cwgc0gz0c0qazezx0q9urg5l</p>
+      <p class="w3-medium n-text-purple">Powered by shaka greetings and hugs. ¡Pura vida!</p>
+  </div>
   <!-- End footer -->
   </footer>
 
@@ -338,6 +356,17 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+</script>
+<script>
+  let text = document.getElementById('myText').innerHTML;
+  const copyContent = async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+      console.log('copied to clipboard');
+    } catch (err) {
+      console.error('oops, it did not copy ', err);
+    }
+  }
 </script>
 </body>
 </html>
