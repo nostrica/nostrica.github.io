@@ -23,48 +23,42 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href="css/pages.css" />
   </head>
-<body class="w3-black">
+<body class="n-purple">
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="images/pura-vida.png" style="width:100%">
+  <img src="images/pura-vida-2.png" style="width:100%" class="n-teal">
   <!---about--->
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-deep-purple">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large n-purple n-hover-purple">
     <i class="fa fa-hand-peace-o w3-xxlarge"></i>
     <p>ABOUT</p>
   </a>
   <!--- end about --->
-  <!--- plan --->
-  <a href="#plan" class="w3-bar-item w3-button w3-padding-large w3-hover-deep-purple">
+  <!--- agenda --->
+  <a href="discover/index.html" class="w3-bar-item w3-button w3-padding-large n-hover-green">
     <i class="fa fa-pencil w3-xxlarge"></i>
-    <p>PLAN</p>
+    <p>DISCOVER</p>
   </a>
-  <!--- end plan --->
+  <!--- end agenda --->
   <!--- travel --->
-  <a href="#travel" class="w3-bar-item w3-button w3-padding-large w3-hover-deep-purple">
+  <a href="travel/index.html" class="w3-bar-item w3-button w3-padding-large n-hover-blue">
     <i class="fa fa-sun-o w3-xxlarge"></i>
     <p>TRAVEL</p>
   </a>
-  <!--- end travel --->
+  <!--- end agenda --->
   <!--- give back --->
-  <a href="#give-back" class="w3-bar-item w3-button w3-padding-large w3-hover-deep-purple">
+  <a href="give-back/index.html" class="w3-bar-item w3-button w3-padding-large n-hover-orange">
     <i class="fa fa-heart w3-xxlarge"></i>
     <p>GIVE BACK</p>
   </a>
   <!--- end give back --->
   <!--- nostr spirit --->
-  <a href="#nostr-spirit" class="w3-bar-item w3-button w3-padding-large w3-hover-deep-purple">
+  <a href="nostr-spirit/index.html" class="w3-bar-item w3-button w3-padding-large n-hover-purple">
     <i class="fa fa-sticky-note w3-xxlarge"></i>
-    <p>NOSTR SPIRIT</p>
+    <p>NOSTR SPIRIT WALL</p>
   </a>
   <!--- end nostr spirit --->
-  <!--- wall --->
-  <a href="#wall" class="w3-bar-item w3-button w3-padding-large w3-hover-deep-purple">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>WALL</p>
-  </a>
-  <!--- end wall --->
 </nav>
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
@@ -72,287 +66,91 @@
 </div></div>
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-hand-peace-o w3-xlarge"></i>&nbsp;&nbsp;ABOUT</a>
-  <a href="#plan" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-pencil w3-xlarge"></i>&nbsp;&nbsp;PLAN</a>
-  <a href="#travel" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-sun-o w3-xlarge"></i>&nbsp;&nbsp;TRAVEL</a>
-  <a href="#give-back" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-heart w3-xlarge"></i>&nbsp;&nbsp;GIVE BACK</a>
-    <a href="#nostr-spirit" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-sticky-note w3-xlarge"></i>&nbsp;&nbsp;NOSTR SPIRIT</a>
-  <a href="#wall" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-eye w3-xlarge"></i>&nbsp;&nbsp;WALL</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-hand-peace-o w3-xlarge"></i>&nbsp;&nbsp;ABOUT</a>
+  <a href="discover/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-pencil w3-xlarge"></i>&nbsp;&nbsp;DISCOVER</a>
+  <a href="travel/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-sun-o w3-xlarge"></i>&nbsp;&nbsp;TRAVEL</a>
+  <a href="give-back/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-heart w3-xlarge"></i>&nbsp;&nbsp;GIVE BACK</a>
+  <a href="nostr-spirit/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-sticky-note w3-xlarge"></i>&nbsp;&nbsp;NOSTR SPIRIT WALL</a>
 </div>
 <!-- Nostrica Content -->
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
-  <header class="w3-container w3-padding-24 w3-center w3-black" id="home">
-    <img src="images/nostrica-2023.png" alt="nostrica 2023 logo" class="w3-image w3-animate-top" width="900" height="575">
+  <header class="w3-container w3-padding-24 w3-center" id="home">
+    <img src="images/nostrica-unconference.png" alt="nostrica 2023 logo" class="w3-image w3-animate-top" width="900" height="575">
   </header>
-  <div class="w3-content w3-left-align w3-text-grey w3-padding-64">
-  <div class="w3-row w3-center w3-padding-16 w3-section w3-deep-purple w3-round-xlarge">
-    <div class="w3-third w3-section w3-border-right">
-      <span class="w3-xlarge">March 19-21</span><br>
-      Sunday-Tuesday
+  <!--- End Header/home--->
+  <!--- news --->
+  <div class="w3-content w3-left-align w3-text-grey w3-padding" id="news">
+    <h2 class="w3-text-light-grey w3-jumbo">news</h2>
+    <hr style="width:100%" class="w3-border-deep-purple">
+    <p class="w3-xxlarge">We're preparing to issue <span class="n-text-teal">tickets</span> <i class="fa fa-ticket w3-xlarge n-text-teal"></i></p>
+    <p class="w3-xlarge">We have a limited number of IRL tickets.<br> (Yes, you can join virtually too.)</p>
+    <p class="w3-xlarge">If you pre-registered to come in-person, you should have gotten a DM from nostrica on nostr. If you did not receive one, please send us a DM <span class="npub w3-medium"> (npub1nstrcu63lzpjkz94djajuz2evrgu2psd66cwgc0gz0c0qazezx0q9urg5l)</span>.</p>
+  </div>
+    <div class="w3-content w3-padding">
+      <div class="w3-row w3-padding-16">
+    <p class="w3-col m4 s12 w3-large w3-padding w3-border-right"><span class="w3-xxlarge n-text-teal">1.</span><br>Please confirm your in-person attendance.</p>
+    <p class="w3-col m4 s12 w3-large w3-padding w3-border-right"><span class="w3-xxlarge n-text-teal">2.</span> <br>All adults need tickets. How many are in your party?</p>
+    <p class="w3-col m4 s12 w3-large w3-padding"><span class="w3-xxlarge n-text-teal">3.</span><br>How many of you, if any, will want a<br> <span class="n-text-teal">do-not-photograph/anon/nym</span> unconference badge?</p>
+      </div>
     </div>
-    <div class="w3-third w3-section w3-border-right">
-      <span class="w3-xlarge">Uvita, Costa Rica</span><br>
-      <span class="w3-text-orange">Bitcoin circular economy</span>
-    </div>
-    <div class="w3-third w3-section">
-      <span class="w3-xlarge">Can't make it?</span><br>
-      Built for virtual first
+  <!--- End news --->
+  <!--- main information --->
+    <div class="w3-content w3-left-align w3-padding-64">
+    <div class="w3-row w3-center w3-padding-16 w3-section n-teal w3-round-xlarge">
+      <div class="w3-third w3-section w3-border-right">
+        <span class="w3-xlarge">March 19-21</span><br>
+        Sunday-Tuesday
+      </div>
+      <div class="w3-third w3-section w3-border-right">
+        <span class="w3-xlarge">Uvita, Costa Rica</span><br>
+        <span class="w3-text-deep-purple">Bitcoin circular economy</span>
+      </div>
+      <div class="w3-third w3-section">
+        <span class="w3-xlarge">Can't make it?</span><br>
+        Built for virtual first
+      </div>
     </div>
   </div>
-</div>
-  <!--- End Header/home--->
+  <!--- end main information --->
   <!--- About --->
   <div class="w3-content w3-left-align w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey w3-xxxlarge">a free unconference</h2>
     <h3 class="w3-text-light-grey">Both free & freeing</h3>
-    <hr style="width:100%" class="w3-border-deep-purple">
-    <p class="w3-xxlarge">Nostr <span class="w3-text-blue">frees</span> people from platforms. Nostrica celebrates nostr's decentralization.</p>
-    <p class="w3-xxlarge">Unconference online events, in-person admission tickets & shared meals are <span class="w3-text-blue">free</span>. <span class="w3-xlarge">(thanks to jack <img src="images/shaka.png" alt="shaka hand emoticon"/>)</span></p>
-    <p class="w3-panel w3-blue w3-padding w3-large w3-round-xlarge"><br>*you still need to find a way to cover travel and lodging expenses. <br><a href="https://docs.google.com/document/d/1Gsv09gfuwhqhQerIkxeYQ7iOTjOHUC5oTnL2KKyHpR8/edit#heading=h.u39gcbr2ves9" target="new">The <em>lodging assistance</em> section has possible discounted accomodations. &#10530;</a><br><br></p>
+    <hr style="width:100%" class="w3-border-teal">
+    <p class="w3-xxlarge">Nostr <span class="n-text-teal">frees</span> people from platforms. Nostrica celebrates nostr's decentralization.</p>
+    <p class="w3-xxlarge">Unconference online events, in-person admission tickets & shared meals are <span class="n-text-teal">free</span>. <span class="w3-xlarge">(thanks to jack <img src="images/shaka.png" alt="shaka hand emoticon"/>)</span></p>
+    <p class="n-text-teal w3-large w3-round-xlarge"><br>*you still need to find a way to cover travel and lodging expenses.<br><br></p>
 
   </div>
   <!--- End about --->
   <div class="w3-content w3-left-align w3-text-grey w3-padding-64">
     <h2 class="w3-text-light-grey w3-xxxlarge">nostr is coming together</h2>
-    <hr style="width:100%" class="w3-border-deep-purple">
+    <hr style="width:100%" class="w3-border-teal">
     <!-- IRL --->
     <p class="w3-wide w3-large">Seeing each other IRL (Uvita, Costa Rica)</p>
     <div class="w3-white">
-      <div class="w3-deep-purple" style="height:28px;width:35.3%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;201</div>
+      <div class="w3-yellow" style="height:28px;width:36.25%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;269*</div>
     </div>
+      <p class="w3-medium">* We have a total of 300 spaces available for in-person attendance</p>
     <!--- end IRL--->
     <!--- virtual --->
     <p class="w3-wide w3-large">Joining in cyberspace</p>
     <div class="w3-white">
-      <div class="w3-blue" style="height:28px;width:64.7%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;369</div>
+      <div class="n-teal" style="height:28px;width:63.74%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;473</div>
     </div>
     <!--- end virtual ---><br><br>
     <!--- pre-registration --->
-    <a href="https://forms.gle/NGc5kW2urEmuVtzu5" target="new" class="w3-btn w3-section w3-deep-purple w3-hover-orange w3-round-xlarge w3-padding-16">Can we count you in?</a>
+    <a href="https://forms.gle/NGc5kW2urEmuVtzu5" target="new" class="w3-btn w3-section n-teal w3-hover-yellow w3-round-xlarge w3-padding-16">Can we count you in?</a>
     <!--end pre-registration--->
   </div>
-  <!--- Openness --->
-  <div class="w3-content w3-left-align w3-text-grey w3-padding-64" id="plan">
-    <h2 class="w3-text-light-grey w3-xxxlarge">built in public</h2>
-    <hr style="width:100%" class="w3-border-deep-purple">
-    <p class="w3-xxlarge">The nostr community is joining forces to plan nostrica and make it special for those joining online and IRL.</p>
-    <h3 class="w3-text-light-grey w3-xlarge">Family friendly</h3>
-    <h3 class="w3-text-light-grey w3-xlarge">Nym friendly and privacy mindful</h3>
-    <h3 class="w3-text-light-grey w3-xlarge">Workshops, conversations, music...</h3>
-    <h3 class="w3-text-light-grey w3-xlarge">Opportunities to give-back</h3>
-    <!--- Planning doc --->
-    <a href="https://docs.google.com/document/d/1Gsv09gfuwhqhQerIkxeYQ7iOTjOHUC5oTnL2KKyHpR8/edit?usp=sharing" target="new" class="w3-btn w3-section w3-deep-purple w3-hover-orange w3-round-xlarge w3-padding-16">Join the planning</a>    <a href="https://docs.google.com/spreadsheets/d/1R2oRA5MMICpqO8Nvu2blO75f5MQeBDZy1WkSVYlUosM/edit#gid=0" target="new" class="w3-btn w3-section w3-black w3-border w3-hover-light-grey w3-round-xlarge w3-padding-16">Agenda WIP</a>
-    <!--- end planning doc --->
-  </div>
-  <!--- End openness--->
-  <!--- travel --->
-  <div class="w3-content w3-left-align w3-text-grey w3-padding-16" id="travel">
-    <h2 class="w3-text-light-grey w3-xxxlarge w3-padding-16">greet spring by the ocean</h2>
-    <h3 class="w3-text-light-grey w3-xxlarge">Uvita, Costa Rica</h3>
-    <hr style="width:100%" class="w3-border-deep-purple">
-    <p class="w3-xxlarge">Bitcoin circular economy</p>
-    <p class="w3-text-light-grey w3-xlarge">Bitcoin Jungle friends on the ground</p>
-    <!--- what to do --->
-    <a href="https://docs.google.com/document/d/1P0o1UfQNLg_GxZdz_yCYvTGWWGyrh137gVGb5mdIDFo/edit" target="new" class="w3-btn w3-section w3-deep-purple w3-hover-orange w3-round-xlarge w3-padding-16">What to do</a>
-    <!--- end what to do --->
-    <!--- shuttles --->
-    <p>There will be shuttles available for #nostrica conference attendees from SJO airport to Uvita. Cost will be $25-50 per person each way. If you would like to share a ride with other Nostriches to/from the Airport, fill out the form below. Please fill this out as soon as your flights are booked, so that the organizers can start planning this. As we get closer to the event, we will share more info on reserving ride spots, etc.</p>
-    <a href="https://forms.gle/DRWEm8EkXCUMoHQs8" target="new" class="w3-btn w3-section w3-deep-purple w3-hover-orange w3-round-xlarge w3-padding-16">Nostrich Group Transportation</a>
-    <!--- end shuttles --->
-    <!--- need a visa --->
-    <p class="w3-panel w3-blue w3-padding w3-large w3-round-xlarge"><br>Need a visa to enter Costa Rica?<br> We can help. Please DM us A.S.A.P. on our official nostrica nostr: <span class="npub w3-medium">npub1nstrcu63lzpjkz94djajuz2evrgu2psd66cwgc0gz0c0qazezx0q9urg5l</span><br><br></p>
-    <!--- end need a visa --->
-  </div>
-  <!--- End travel--->
-  <!-- Giving back -->
-  <div class="w3-content w3-left-align w3-text-grey w3-padding-16" id="give-back">
-    <h2 class="w3-text-light-grey w3-xxxlarge w3-padding-16">giving back</h2>
-    <h3 class="w3-text-light-grey w3-xxlarge">Nostr & nostrica care about the local community</h3>
-    <hr style="width:100%" class="w3-border-deep-purple">
-    <p class="w3-xxlarge">we're having ways of giving back online & in-person</p>
-  </div>
-  <div class="w3-row w3-padding-16">
-    <div class="w3-col m6 w3-padding-large">
-     <a href="https://lightning.store/product/limited-edition-nostrica-23-t-shirt-or-tank-top/" target="new" alt="lightning store nostrica limited edition t-shirt or tank top"><img src="images/give-back/lightning-store-nostrica.png" class="w3-round w3-image w3-round-xlarge" alt="Table Setting" width="600" height="750"></a>
-    </div>
-
-    <div class="w3-col m6 w3-padding-large" id="lightning-store">
-      <h1>Limited edition Nostrica '23</h1>
-      <h2 class="w3-text-orange">By the Lightning Store</h2>
-      <h3 class="w3-text-gray">T-shirt or tank top</h3>
-      <div class="w3-panel w3-black">
-      <!--- quote --->
-      <p class="w3-large w3-serif">
-        <i class="fa fa-quote-right w3-xxlarge w3-margin-right"></i> Inspired by Costa Rican art/culture, 80's gift shops and the Nostr community of course. 🤙</p>
-      </div>
-      <!--- end quote --->
-      <p>All net proceeds will be donated to local Costa Rican charities. TBD.</p>
-      <!--- what to do --->
-      <a href="https://lightning.store/product/limited-edition-nostrica-23-t-shirt-or-tank-top/" target="new" class="w3-btn w3-section w3-deep-purple w3-hover-orange w3-round-xlarge w3-padding-16">Pre-order</a>
-      <!--- what to do --->
-    </div>
-  </div>
-<!--- end give back --->
-<!-- nostr spirit -->
-<div class="w3-padding-16 w3-content" id="nostr-spirit">
-  <h2 class="w3-text-light-grey w3-xxxlarge w3-padding-16">nostr spirit</h2>
-  <h2 class="w3-text-light-grey w3-xxlarge">carried in words from the community
-  <hr style="width:100%" class="w3-border-deep-purple">
-</div>
-<div class="w3-container" id="uncle-rockstar">
-  <div class="w3-content" style="max-width:700px">
-    <div class="w3-container menu w3-padding-16 w3-card">
-      <div class="w3-panel w3-black">
-        <p class="w3-large n-text-light-grey">
-          <i class="fa fa-quote-left w3-xxlarge w3-margin-right"></i>
-          We work tirelessly, day and night,<br>
-          To make sure that everyone takes flight,<br>
-          From platforms built on power and greed,<br>
-          To a space where all are truly freed.</p>
-        <p class="w3-large n-text-light-grey">
-          Twitter, where attention is farmed, day by day.<br>
-          <span class="n-text-purple">Nostr, where authenticity is valued in every way.</span><br>
-          True communication, not a game to play,<br>
-          Thoughts should be valued, not thrown away.</p>
-        <p class="w3-large n-text-light-grey">
-          Facebook, where friends can be bought and sold.<br>
-          <span class="n-text-purple n-text-light-grey">Nostr, where real connection is what we hold.</span><br>
-          Privacy, a right that should never be sold,<br>
-          On Nostr, protected, worth more than gold.</p>
-        <p class="w3-large n-text-light-grey">
-          Instagram, where likes are all that's sought.<br>
-          <span class="n-text-purple n-text-light-grey">Nostr, where honest self-expression is taught.</span><br>
-          Authenticity is valued, not fake,<br>
-          Our uniqueness, here, will never break.</p>
-        <p class="w3-large n-text-light-grey">
-          TikTok, where algorithms rule the game.<br>
-          <span class="n-text-purple">Nostr, where open source ensures our aim.</span><br>
-          Where expression is not a means to an end,<br>
-          Manipulated for views as a way to ascend.</p>
-        <p class="w3-large n-text-light-grey">
-          So we strive with unyielding will,<br>
-          To lead all to Nostr's hill.<br>
-          A place where all can truly speak,<br>
-          Respect each other and not be meek.</p>
-        <p class="w3-large n-text-light-grey">
-          Let us work and make it true<br>
-          <span class="n-text-purple">A future with Nostr, for all of you.</span></p>
-          <i class="fa fa-quote-right w3-xxlarge w3-margin-right"></i>
-
-      </div>
-    </div>
-    <div class="w3-container">
-  <ul class="w3-ul w3-card-4 w3-black">
-    <li class="w3-padding-32">
-      <a href="nostr:npub1j8y6tcdfw3q3f3h794s6un0gyc5742s0k5h5s2yqj0r70cpklqeqjavrvg" target="new" alt="Uncle Rockstar"><img src="images/nostr-spirit/profiles-uncle-rockstar.png" class="w3-left w3-circle w3-margin-right" style="width:50px"></a>
-      <span class="w3-xlarge">Uncle Rockstar</span><br>
-    </li>
-    <li class="w3-padding-16">
-      <p class="w3-container w3-mobile"><i class="fa fa-sticky-note-o w3-large"></i><br><span class="npub"><a href="nostr:note1aqujy9qht5a95y0uwxxlru3muwjdfnjeruz7ejl589ru36hqyehswxd5j2" target="new" alt="Uncle Rockstar nostr profile">note1aqujy9qht5a95y0uwxxlru3muwjdfnjeruz7ejl589ru36hqyehswxd5j2</a></span></p>
-    </li>
-  </ul>
-</div>
-  </div>
-</div>
-<!--- end nostr spirit --->
-
-  <!-- Community wall -->
-  <div class="w3-padding-64 w3-content" id="wall">
-    <h2 class="w3-text-light-grey w3-xxxlarge">nostr community wall</h2>
-    <h2 class="w3-text-light-grey w3-xxlarge">share your <span class="n-text-purple">#nostrica</span> journey</h2>
-    <hr style="width:100%" class="w3-border-deep-purple">
-
-    <!-- Grid for photos and music -->
-    <!--- row 8 --->
-    <div class="w3-row-padding" style="margin:0 -16px" id="wall-row-5">
-      <div class="w3-half">
-        <a href="nostr:note1ueptmeegnlyskrhv958r5sxedn6ap8c67axuczqq7lrlgx3k227qh07p2z" target="new"><img src="images/wall/nostrica-8b.png" style="width:100%"></a>
-      </div>
-      <div class="w3-half">
-        <a href="nostr:note1h9envzzv8pepmym8u8hn4rv68nn5q255jd08kt4gt5j0kzku5q0smyuf2w" target="new"><img src="images/wall/nostrica-8a.png" style="width:100%"></a>
-      </div>
-    <!--- end row 7 --->
-    <!--- row 7 --->
-    <div class="w3-row-padding" style="margin:0 -16px" id="wall-row-5">
-      <div class="w3-half">
-        <a href="nostr:note1j5c5d7pgwyxxk4jumxtpctnzyuzdkzvp436c9g0wlcza9xk3s0es7fh8lz" target="new"><img src="images/wall/nostrica-7a.png" style="width:100%"></a>
-      </div>
-      <div class="w3-half">
-        <a href="nostr:note1s547jqf9e3ev6gjjrlgsrwupn5zqxyd9jhdnzkx7fwdd4dk867mqcvg6zu" target="new"><img src="images/wall/nostrica-7b.png" style="width:100%"></a>
-      </div>
-    <!--- end row 7 --->
-    <!--- row 6 --->
-    <div class="w3-row-padding" style="margin:0 -16px" id="wall-row-5">
-      <div class="w3-half">
-        <a href="http://tidal.com/playlist/14382965-aacf-44f8-bb4d-a02ec7e41993" target="new"><img src="images/wall/nostrica-6a.png" style="width:100%"></a>
-      </div>
-      <div class="w3-half w3-padding-64">
-        <h3 class="w3-xlarge">Nostr Vibes Tidal Playlist</span></h3>
-        <span class="w3-large"><span class="n-text-purple">From:</span> nostr.build</span>
-        <p class="npub n-text-purple">nostr: note1445r480ez46sywcxylqsfm0wd9kj838su3mks249phdqy2xmf2vsd7tsmp</p>
-      </div>
-    <!--- end row 6 --->
-    <!--- row 5 --->
-    <div class="w3-row-padding" style="margin:0 -16px" id="wall-row-5">
-      <div class="w3-half">
-        <a href="nostr:note1u04thcugj8e7j8tj65y00lm8px6qed40l90kszmlqh96m892zjjstf3yg0" target="new"><img src="images/wall/nostrica-5a.png" style="width:100%"></a>
-      </div>
-      <div class="w3-half">
-        <a href="nostr:note1rdqgrer3xadq5m6xtfp5rlsf6yzzdq83ay6w5vuxts9kp84x40xs8kt6uj" target="new"><img src="images/wall/nostrica-5b.png" style="width:100%"></a>
-      </div>
-    <!--- end row 5 --->
-    <!--- row 4 --->
-    <div class="w3-row-padding" style="margin:0 -16px" id="wall-row-4">
-      <div class="w3-half">
-        <a href="nostr:note1zrxkj5hvdvlvd94zy265vz8p7lvdc0kr9y5ufxlajyenhukzuf9qwqfg7g" target="new"><img src="images/wall/nostrica-4a.png" style="width:100%"></a>
-      </div>
-
-      <div class="w3-half">
-        <a href="nostr:note1hfl9jfzgrnrlvrmzcxg54q98d8fx4df4nysz0uar2dvfd3we990s70r7za" target="new"><img src="images/wall/nostrica-4b.png" style="width:100%"></a>
-      </div>
-    <!--- end row 4 --->
-    <!--- row 3 --->
-    <div class="w3-row-padding" style="margin:0 -16px" id="wall-row-3">
-      <div class="w3-half">
-        <a href="nostr:note1aaxnhqk9jq05mtdl7jasd7vxz27q0uw3m6y5kma8r6aflek6z6nqhtmf7v" target="new"><img src="images/wall/nostrica-3a.png" style="width:100%"></a>
-      </div>
-
-      <div class="w3-half">
-        <a href="nostr:note1m75ayausq6gdxj4j4znrjnjrmhqftlf96jk52kp6tqlf0g8jqpus9uyxgs" target="new"><img src="images/wall/nostrica-3b.png" style="width:100%"></a>
-      </div>
-    <!--- end row 3 --->
-    <!--- row 2 --->
-    <div class="w3-row-padding" style="margin:0 -16px" id="wall-row-2">
-      <div class="w3-half">
-        <a href="https://lightning.store/product/limited-edition-nostrica-23-t-shirt-or-tank-top/" target="new"><img src="images/wall/nostrica-2a.png" style="width:100%"></a>
-      </div>
-
-      <div class="w3-half">
-        <a href="https://lightning.store/product/limited-edition-nostrica-23-t-shirt-or-tank-top/" target="new"><img src="images/wall/nostrica-2b.png" style="width:100%"></a>
-      </div>
-    <!--- end row 2 --->
-    <!--- row 1 --->
-    <div class="w3-row-padding" style="margin:0 -16px" id="wall-row-1">
-      <div class="w3-half">
-        <a href="nostr:note1svhrmn3v8h44xv7ev54dls7d98z6e62uzq02f4c8qqze0f6az22s3slash" target="new"><img src="images/wall/nostrica-1a.png" style="width:100%"></a>
-      </div>
-
-      <div class="w3-half">
-        <a href="nostr:note1rdqgrer3xadq5m6xtfp5rlsf6yzzdq83ay6w5vuxts9kp84x40xs8kt6uj" target="new"><img src="images/wall/nostrica-1b.png" style="width:100%"></a>
-      </div>
-    <!--- end row 1 --->
-    <!-- End photo grid -->
-    </div>
-  <!-- End Community wall -->
-  </div>
     <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <footer class="w3-content w3-padding-64 w3-text-white w3-xlarge">
     <div class="w3-container w3-mobile w3-margin npub">
       <a href="https://github.com/nostrica/nostrica.github.io" target="new" class="w3-btn w3-xxxlarge"><i class="fa fa-github w3-hover-opacity"></i></a>
-      <h3 class="npub w3-large">follow the journey on our nostr:</h3>
+      <h3 class="npub w3-large">follow the nostrica journey on our nostr:</h3>
       <p class="npub w3-medium">npub1nstrcu63lzpjkz94djajuz2evrgu2psd66cwgc0gz0c0qazezx0q9urg5l</p>
-      <p class="w3-medium n-text-purple">Powered by shaka greetings and hugs. ¡Pura vida!</p>
+      <p class="w3-medium n-text-teal">Powered by shaka greetings and hugs. ¡Pura vida!</p>
   </div>
   <!-- End footer -->
   </footer>
