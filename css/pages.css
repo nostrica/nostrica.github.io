@@ -1,14 +1,14 @@
 /* pages and rabbit holes */
 :root {
    --black: #000000;
-   --text: #65ffff;
+   --text: #f1f1f1;
    --blue-dark: #3145FE;
    --blue: #267DFE;
    --blue-light: #5D9EFF;
    --green-dark: #01731A;
    --green: #008E1F;
    --green-light: #6DEE8A;
-   --grey: #ccc;
+   --grey: #B9A9CE;
    --offblack: #1B1B1B;
    --offwhite: #f1f1f1;
    --orange-dark: #B86306;
@@ -23,8 +23,8 @@
    --teal-dark: #009998;
    --teal: #2DFFFE;
    --teal-light: #A9FFFF;
-   --yellow-dark: #A68201;
-   --yellow: #EDBF1A;
+   --yellow-dark: #F2BF29;
+   --yellow: #FFD761;
    --yellow-light: #FDE89F;
    --white: #ffffff;
          }
