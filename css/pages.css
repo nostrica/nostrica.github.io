@@ -51,6 +51,9 @@ background-color: var(--offblack);
 .n-text-blue {
   color: var(--blue-light);
 }
+.n-text-blue-dark {
+  color: var(--blue-dark);
+}
 .n-green-dark {
   background-color: var(--green-dark);
   color: var(--white) !important;
@@ -130,6 +133,7 @@ background-color: var(--offblack);
 .n-text-teal {
   color: var(--teal-light);
 }
+
 h1,h2,h3,h4,h5,h6 {
   font-family: "Aldrich", sans-serif;
 }
