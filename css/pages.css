@@ -48,6 +48,10 @@ background-color: var(--offblack);
   color:#fff!important;
   background-color: var(--blue)!important;
 }
+.n-hover-blue-dark:hover{
+  color:#fff!important;
+  background-color: var(--blue-dark)!important;
+}
 .n-text-blue {
   color: var(--blue-light);
 }
