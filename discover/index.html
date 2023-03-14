@@ -30,11 +30,17 @@
   <!-- Avatar image in top left corner -->
   <img src="../images/pura-vida-1.png" style="width:100%" class="n-purple">
   <!---about--->
-  <a href="../index.html" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-deep-purple">
+  <a href="../index.html" class="w3-bar-item w3-button w3-padding-large w3-black n-hover-purple">
     <i class="fa fa-hand-peace-o w3-xxlarge"></i>
     <p>ABOUT</p>
   </a>
   <!--- end about --->
+  <!--- live --->
+  <a href="../live/index.html" class="w3-bar-item w3-button w3-padding-large n-hover-blue-dark">
+    <i class="fa fa-play-circle-o w3-xxlarge"></i>
+    <p>LIVE</p>
+  </a>
+  <!--- live --->
   <!--- discover --->
   <a href="#" class="w3-bar-item w3-button w3-padding-large n-green n-hover-green">
     <i class="fa fa-pencil w3-xxlarge"></i>
@@ -67,6 +73,7 @@
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="../index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-hand-peace-o w3-xlarge"></i>&nbsp;&nbsp;ABOUT</a>
+  <a href="../live/index.html" alt="live" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-play-circle-o w3-xlarge"></i>&nbsp;&nbsp;LIVE</a>
   <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-pencil w3-xlarge"></i>&nbsp;&nbsp;DISCOVER</a>
   <a href="../travel/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-sun-o w3-xlarge"></i>&nbsp;&nbsp;TRAVEL</a>
   <a href="../give-back/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-heart w3-xlarge"></i>&nbsp;&nbsp;GIVE BACK</a>
@@ -76,7 +83,7 @@
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-24 w3-center" id="home">
-    <img src="../images/nostrica-discover.png" alt="nostrica 2023 logo" class="w3-image w3-animate-top" width="900" height="575">
+    <a href="../index.html" alt="home"><img src="../images/nostrica-discover.png" alt="nostrica 2023 logo" class="w3-image w3-animate-top" width="900" height="575"></a>
   </header>
   <!--- End Header/home--->
   <!--- plan your unconference --->
@@ -841,12 +848,18 @@
   <!--- end of day 3 --->
   <!--- Day 2 --->
   <hr class="w3-border-green" id="hackathon"></hr>
-  <div class="w3-row">
-    <div class="w3-col w3-black w3-border w3-padding">
-      <h2 class="w3-xlarge">Nostr Hackathon</h2>
+  <div class="w3-row w3-padding">
+    <div class="w3-col w3-container w3-black w3-border"><br><br>
+      <i class="fa fa-desktop w3-jumbo w3-center n-text-teal"></i>
+      <h2><a href="https://makers.bolt.fun/tournaments/2/overview" target="new" class="w3-section w3-hover-text-purple w3-padding-16">#NostrHack & Design</a> & <a href="https://nos.social/nostropical-hackathon" target="new" class="w3-section w3-hover-text-purple w3-padding-16">Nostropical Hackathon</a></h2>
+      <h3>10th - 24th Mar</h3>
+      <p class="w3-large w3-left-align">Calling developers and designers for a Bolt Fun tournament: <br>1. Build Nostr applications, and tools<br>2. Design for the uncensored social web  </p>
+      <!--- nostr hack --->
+      <h3 class="w3-xlarge">Awake Venue @Nostrica</h3>
       <p class="w3-medium">In the Big House, main entrance</p>
-      <p class="w3-medium">Space open throughout the conference, from 9a.m. to 10p.m. (and a few days after)</p>
+      <p class="w3-medium">Space open throughout the conference +22+23, from 9a.m. to 10p.m.</p>
       <p class="w3-medium">All are welcome. Project consensus to be reached on site. Computers welcome.</p>
+      Bolt Fun</a>
 <hr>
       <h2 class="w3-xlarge">Building a Micro-app</h2>
       <p class="w3-medium">Starts at 10:00 on the 19th</p>
