@@ -153,8 +153,7 @@ p {
 .youtube-video {
   position: relative;
   overflow: hidden;
-  width: 100% !important;
-  text-align:center;
+  width: 80%;
 }
 
 .youtube-video::after {
