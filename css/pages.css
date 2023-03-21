@@ -150,10 +150,11 @@ p {
   word-wrap: break-word;
 }
 
-.youtube-video {
+.youtube-video-container {
   position: relative;
   overflow: hidden;
-  width: 90% !important;
+  width: 100%;
+  text-align: center;
 }
 
 .youtube-video::after {
