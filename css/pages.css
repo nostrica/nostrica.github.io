@@ -30,8 +30,18 @@
          }
 /* body */
 body {
-background-color: var(--offblack);
+background-color: #4E3FA9;
 }
+
+body, html {height: 100%}
+.bgimg {
+  background-image: url('../images/background-1.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.mySlides {display: none}
+
 .n-blue-dark {
   background-color: var(--blue-dark);
   color: var(--white) !important;

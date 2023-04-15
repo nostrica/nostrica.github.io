@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang=en-us prefix="og: http://ogp.me/ns#">
   <head>
-      <title>nostrica</title>
+      <title>nostr world unconferences</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="Keywords" content="nostr conference, costa rica, 2023">
-      <meta name="Description" content="a nostr unconference ¡pura vida!">
-      <meta property="og:image" content="https://nostrica.com/images/nostrica-social.png">
+      <meta name="Keywords" content="nostr, conference">
+      <meta name="Description" content="where nostriches come together">
+      <meta property="og:image" content="https://nostr.world/images/nostr-world-social.png">
       <meta property="og:image:type" content="image/png">
       <meta property="og:image:width" content="1280">
       <meta property="og:image:height" content="640">
-      <meta property="og:description" content="a nostr unconference">
+      <meta property="og:description" content="where nostriches come together">
       <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:creator" content="@elidyweaver">
-      <meta name="twitter:title" content="nostrica">
-      <meta name="twitter:description" content="a nostr unconference ¡pura vida!">
-      <meta name="twitter:image" content="https://nostrica.com/images/nostrica-social.png">
+      <meta name="twitter:creator" content="">
+      <meta name="twitter:title" content="nostr world">
+      <meta name="twitter:description" content="where nostriches come together">
+      <meta name="twitter:image" content="https://nostr.world/images/nostr-world-social.png">
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,171 +23,122 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href="css/pages.css" />
   </head>
-<body class="n-purple">
-
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="images/pura-vida-2.png" style="width:100%" class="n-teal">
-  <!---about--->
-  <a href="#" class="w3-bar-item w3-button w3-padding-large n-purple n-hover-purple">
-    <i class="fa fa-hand-peace-o w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <!--- end about --->
-  <!--- live --->
-  <a href="live/index.html" class="w3-bar-item w3-button w3-padding-large n-hover-blue-dark">
-    <i class="fa fa-play-circle-o w3-xxlarge"></i>
-    <p>LIVE</p>
-  </a>
-  <!--- live --->
-  <!--- agenda --->
-  <a href="discover/index.html" class="w3-bar-item w3-button w3-padding-large n-hover-green">
-    <i class="fa fa-pencil w3-xxlarge"></i>
-    <p>DISCOVER</p>
-  </a>
-  <!--- end agenda --->
-  <!--- travel --->
-  <a href="travel/index.html" class="w3-bar-item w3-button w3-padding-large n-hover-blue">
-    <i class="fa fa-sun-o w3-xxlarge"></i>
-    <p>TRAVEL</p>
-  </a>
-  <!--- end agenda --->
-  <!--- give back --->
-  <a href="give-back/index.html" class="w3-bar-item w3-button w3-padding-large n-hover-orange">
-    <i class="fa fa-heart w3-xxlarge"></i>
-    <p>GIVE BACK</p>
-  </a>
-  <!--- end give back --->
-  <!--- nostr spirit --->
-  <a href="nostr-spirit/index.html" class="w3-bar-item w3-button w3-padding-large n-hover-purple">
-    <i class="fa fa-sticky-note w3-xxlarge"></i>
-    <p>NOSTR SPIRIT WALL</p>
-  </a>
-  <!--- end nostr spirit --->
-</nav>
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-</div></div>
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-hand-peace-o w3-xlarge"></i>&nbsp;&nbsp;ABOUT</a>
-  <a href="live/index.html" alt="live" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-play-circle-o w3-xlarge"></i>&nbsp;&nbsp;LIVE</a>
-  <a href="discover/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-pencil w3-xlarge"></i>&nbsp;&nbsp;DISCOVER</a>
-  <a href="travel/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-sun-o w3-xlarge"></i>&nbsp;&nbsp;TRAVEL</a>
-  <a href="give-back/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-heart w3-xlarge"></i>&nbsp;&nbsp;GIVE BACK</a>
-  <a href="nostr-spirit/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-sticky-note w3-xlarge"></i>&nbsp;&nbsp;NOSTR SPIRIT WALL</a>
-</div>
-<!-- Nostrica Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-24 w3-center" id="home">
-    <img src="images/nostrica-unconference.png" alt="nostrica 2023 logo" class="w3-image w3-animate-top" width="900" height="575">
-  </header>
-  <!--- End Header/home--->
-  <!--- main information --->
-    <div class="w3-content w3-left-align w3-padding-64">
-    <div class="w3-row w3-center w3-padding-16 w3-section n-teal w3-round-xlarge">
-      <div class="w3-third w3-section w3-border-right">
-        <span class="w3-xlarge">March 19-21</span><br>
-        Sunday-Tuesday
-      </div>
-      <div class="w3-third w3-section">
-        <span class="w3-large">Grateful to all</span>
-      </div>
-      <div class="w3-third w3-section">
-        <span class="w3-large">Highlights and recordings coming soon</span>
-      </div>
+<body>
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">NOSTR WORLD</a>
+      <a href="#news" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+      <a href="#unconferences" class="w3-bar-item w3-button w3-padding-large w3-hide-small">UNCONFERENCES</a>
+      <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"></a>
     </div>
   </div>
-  <!--- end main information --->
-  <!-- news -->
-  <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:10px">
-    <div class="w3-content w3-left-align w3-text-grey" id="news">
-      <h2 class="w3-text-light-grey w3-jumbo">news</h2>
-    </div>
-    <!-- News 2-->
-    <div class="w3-row-padding w3-padding-16 w3-center">
-        <!--- news 1 --->
-      <div class="w3-half">
-        <i class="fa fa-ticket w3-jumbo w3-center n-text-teal"></i>
-        <h3 class="w3-xlarge">#timecapsule</h3>
-  <p class="w3-large">Capturing the nostr spirit for next year's unconference. Share your thoughts on nostr, nostrica, and your hope for the future of nostr. #timecapsule</p><br><br>
+
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#news" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">NEWS</a>
+    <a href="#unconferences" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">UNCONFERENCES</a>
   </div>
-    <!---- news 2 ----->
-<div class="w3-half w3-padding-top">
-        <i class="fa fa-desktop w3-jumbo w3-center n-text-teal"></i>
-        <h3><a href="discover/index.html#hackathon" class="w3-hover-text-yellow w3-padding-16">#NostrHack & Design + Nostropical Hackathon</a></h3>
-        <h4>10th - 24th Mar</h4>
+
+  <!-- Page content -->
+  <div class="w3-content" style="max-width:2000px;margin-top:46px">
+    <!-- Automatic Slideshow Images -->
+    <div class="mySlides w3-display-container w3-center">
+      <img src="images/nostr-world-1.png" alt="nostr world 1" class="w3-image responsive" style="width:100%">
+      <div class="w3-display-middle w3-container w3-text-white w3-padding-32">
+      <img class="responsive w3-image w3-xlarge-half w3-small-third" src="images/nostr-world-logo.png"/>
       </div>
-        <!--- news 2 ---></div>
-<!--- end news --->
-  <!--- About --->
-  <div class="w3-content w3-left-align w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey w3-xxxlarge">a free unconference</h2>
-    <h3 class="w3-text-light-grey">Both free & freeing</h3>
-    <hr style="width:100%" class="w3-border-teal">
-    <p class="w3-xxlarge">Nostr <span class="n-text-teal">frees</span> people from platforms. Nostrica celebrates nostr's decentralization.</p>
-    <p class="w3-xxlarge">Unconference online events, in-person admission tickets & shared meals are <span class="n-text-teal">free</span>. <span class="w3-xlarge">(thanks to jack <img src="images/shaka.png" alt="shaka hand emoticon"/>)</span></p>
-    <p class="n-text-teal w3-large w3-round-xlarge"><br>*you still need to find a way to cover travel and lodging expenses.<br><br></p>
-    <h3 class="w3-text-light-grey w3-xlarge">Family friendly</h3>
-    <h3 class="w3-text-light-grey w3-xlarge">Nym friendly and privacy mindful</h3>
-    <h3 class="w3-text-light-grey w3-xlarge">Workshops, conversations, music...</h3>
-    <h3 class="w3-text-light-grey w3-xlarge">Opportunities to give-back</h3>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="images/nostr-world-2.png" alt="nostr world 1" class="w3-image responsive" style="width:100%">
+      <div class="w3-display-middle w3-container w3-text-white w3-padding-32">
+      <img class="responsive w3-image w3-xlarge-half w3-small-third" src="images/nostr-world-logo.png"/>
+      </div>
+    </div>
 
-  </div>
-  <!--- End about --->
-  <div class="w3-content w3-left-align w3-text-grey w3-padding-64">
-    <h2 class="w3-text-light-grey w3-xxxlarge">nostr is coming together</h2>
-    <hr style="width:100%" class="w3-border-teal">
-    <!-- IRL --->
-    <i class="fa fa-fire w3-jumbo w3-center n-text-teal"></i>
-    <h3 class="w3-text-light-grey">We're going live!</h3>
-    <!---live --->
-    <a href="live/index.html" target="new" class="w3-btn w3-section n-teal w3-hover-yellow w3-round-xlarge w3-padding-16">Live Stream</a>
-    <!--end live--->
-  </div>
-    <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-white w3-xlarge">
-    <div class="w3-container w3-mobile w3-margin npub">
-      <a href="https://github.com/nostrica/nostrica.github.io" target="new" class="w3-btn w3-xxxlarge"><i class="fa fa-github w3-hover-opacity"></i></a>
-      <h3 class="npub w3-large">follow the nostrica journey on our nostr:</h3>
-      <p class="npub w3-medium">npub1nstrcu63lzpjkz94djajuz2evrgu2psd66cwgc0gz0c0qazezx0q9urg5l</p>
-      <p class="w3-medium n-text-teal">Powered by shaka greetings and hugs. ¡Pura vida!</p>
-  </div>
-  <!-- End footer -->
-  </footer>
+    <!-- News -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="news">
+      <h1 class="w3-wide w3-text-white">NOSTR WORLD</h1>
+      <p class="w3-xxlarge w3-center"><a href="https://docs.google.com/document/d/1fx4vTUykVHEbM_dpAnoMHzBAU-VQ9hQsJB8NA2SqH70/edit" target="new" alt="nostrasia working google doc">nostrasia 2023</a></p>
+      <p class="w3-large w3-center">We're on the the search for venue locations in Tokyo in November</p>
+      <p class="w3-large w3-center">We need 3 consecutive days with capacity for 300-1000 people <br>2 additional days with capacity for 50-100 people is a plus</p>
+    </div>
 
-<!-- END PAGE CONTENT -->
-</div>
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
+    <!--- Unconferences -->
+    <div class="w3-black" id="unconferences">
+      <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+        <h1 class="w3-wide w3-center">PAST UNCONFERENCES</h1>
+        <div class="w3-row-padding w3-padding-0" style="margin:0 -16px">
+          <div class="w3-half w3-margin-bottom">
+            <a href="https://nostrica.com" target="new" alt="nostrica unconference 2023"><img src="images/2023-nostrica-unconference.png" alt="Nostrica Unconference 2023" style="width:100%" class="w3-hover-opacity"></a>
+            <!---<div class="w3-container w3-white">
+              <p class="w3-xlarge w3-text-black"><b>Nostrica</b></p>
+              <p class="w3-large w3-text-black">Memories of nostrica coming soon</p>
+              <div class="w3-container w3-center">
+              <a href="https://nostrica.com" target="new" alt="nostrica unconference" class="w3-btn w3-black w3-padding w3-margin">nostrica.com</a>
+            </div>
+          </div>--->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+      <div class="w3-display-topleft w3-padding-large w3-xlarge">
+
+      </div>
+
+    <!-- The Contact Section -->
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+      <h2 class="w3-wide w3-center">FOLLOW THE JOURNEY ON NOSTR</h2>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-col m12 w3-large w3-margin-bottom">
+          <p class="w3-large npub">nostr:npub1nstrcu63lzpjkz94djajuz2evrgu2psd66cwgc0gz0c0qazezx0q9urg5l</p>
+        </div>
+        <div class="w3-display-bottomright w3-padding-large">
+          <a href="https://github.com/nostrworld/nostr.world.github.io" target="new" class="w3-btn w3-xxlarge"><i class="fa fa-github w3-hover-opacity"></i></a>
+        </div>
+      </div>
+    </div>
+
+  <!-- End Page Content -->
+  </div>
+
+  <script>
+  // Automatic Slideshow - change image every 4 seconds
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
   }
-}
 
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
   }
-}
-</script>
-<!--- nostri chat widget by pablof7z--->
-<script
-  src="https://nostri.chat/public/bundle.js"
-  data-chat-type="GLOBAL"
-  data-chat-tags="nostrica,nostrica2023"
-  data-relays="wss://relay.nostrica.com,wss://relay.f7z.io,wss://nos.lol,wss://relay.nostr.info,wss://nostr-pub.wellorder.net,wss://relay.current.fyi,wss://relay.nostr.band"
-></script>
-<link rel="stylesheet" href="https://nostri.chat/public/bundle.css">
-<!--- end nostri -chat --->
-</body>
-</html>
+
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+  </body>
+  </html>
